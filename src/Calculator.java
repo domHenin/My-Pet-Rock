@@ -10,6 +10,6 @@ public class Calculator {
 
 
 
-//subtractNum
-//multiplyNum
-//divideNum
+//subtractNum  --> 'difference'
+//multiplyNum  --> 'product'
+//divideNum    --> 'quotient'
