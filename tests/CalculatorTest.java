@@ -5,34 +5,38 @@ import static org.junit.Assert.*;
 public class CalculatorTest {
     private Calculator calc = new Calculator();
     @Test
-    public void sum() {
+    public void ShouldGetSumTest() {
         int x = 2, y =2;
-        int sum = x + y;
+        int sumAns = x + y;
 
-        assertEquals(4, sum);
+        assertEquals(4, sumAns);
     }
 
     @Test
-    public void subtractNum() {
+    public void ShouldGetDifferenceTest() {
         int x = 2, y =2;
-        int sum = x - y;
+        int differenceAns = x - y;
 
-        assertEquals(0, sum);
+        assertEquals(0, differenceAns);
     }
 
     @Test
-    public void multiplyNum() {
+    public void ShouldGetProductTest() {
         int x = 2, y =2;
-        int sum = 2 * 2;
+        int productAns = 2 * 2;
 
-        assertEquals(4, sum);
+        assertEquals(4, productAns);
     }
 
     @Test
-    public void divideNum() {
+    public void ShouldGetQuotientTest() {
         int x = 2, y =1;
-        int sum = x / y;
+        int quotientAns = x / y;
 
-        assertEquals(2, sum);
+        assertEquals(2, quotientAns);
     }
 }
+
+//subtractNum  --> 'difference'
+//multiplyNum  --> 'product'
+//divideNum    --> 'quotient'
